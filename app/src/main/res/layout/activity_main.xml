@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.baway.liuhaifeng20170904.MainActivity">
+<com.baway.liuhaifeng20170904.RoundProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:roundColor="#D1D1D1"
+    app:roundProgressColor="@android:color/black"
+    app:textColor="#9A32CD"
+    app:textIsDisplayable="false"
+    app:roundWidth="10dip"
+    app:textSize="18sp"
+    />
+</RelativeLayout>
